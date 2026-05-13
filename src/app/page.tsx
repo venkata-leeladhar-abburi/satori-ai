@@ -116,17 +116,16 @@ function VideoHero() {
         </div>
       </nav>
 
-      <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center -translate-y-[20%] mt-12">
-        <div className="text-[13px] md:text-sm text-white/80 uppercase tracking-widest mb-6 font-semibold">
+      <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center -translate-y-[15%] mt-12">
+        <div className="text-[15px] font-[500] text-[#FF5C00] uppercase tracking-[0.12em] mb-6">
           Next-Gen Agentic AI & Enterprise Procurement Intelligence
         </div>
         <h1 
-          className="text-5xl md:text-6xl lg:text-7xl text-white mb-6 tracking-tight whitespace-nowrap"
-          style={{ fontFamily: "'Instrument Serif', serif" }}
+          className="text-[2.75rem] md:text-[3.75rem] lg:text-[4.5rem] font-serif text-white mb-8 font-[600] leading-[0.95] tracking-[-0.03em] whitespace-nowrap"
         >
           Built for the Enterprise
         </h1>
-        <p className="text-[16px] md:text-lg text-white/90 max-w-2xl mx-auto leading-relaxed mb-10">
+        <p className="text-[19px] md:text-[21px] text-white/75 max-w-2xl mx-auto leading-[1.6] mb-12 font-[400] tracking-[-0.01em]">
           Satori AI thinks, decides, and executes procurement operations autonomously — helping enterprises move faster with fewer bottlenecks.
         </p>
         
@@ -137,7 +136,7 @@ function VideoHero() {
               placeholder="Enter your work email" 
               className="bg-transparent border-none flex-1 text-white placeholder:text-white/60 text-base focus:outline-none"
             />
-            <button className="bg-white rounded-full px-6 py-3 text-[#1A0A00] hover:bg-white/90 transition-colors shrink-0 font-bold text-sm">
+            <button className="bg-white rounded-full px-7 py-3.5 text-[#1A0A00] hover:bg-white/90 transition-colors shrink-0 text-[15px] font-[600] tracking-[-0.01em]">
               Request a Demo
             </button>
           </div>
@@ -1041,7 +1040,7 @@ export default function NexCrmClone() {
                   <div className="w-3 h-3 bg-[#3E1C00] rounded-[2px]" />
                 </div>
                 <h3 className="text-[1.625rem] font-serif font-semibold text-white mb-3 leading-[1.1] tracking-[-0.015em]">Professional</h3>
-                <p className="text-[14px] text-white font-[500]/80 mb-8">&nbsp;</p>
+                <p className="text-[14px] text-white/80 font-[500] mb-8">&nbsp;</p>
                 
                 <div className="mb-8 border-b border-white/20 pb-8 flex items-baseline gap-1">
                   <span className="text-[3.75rem] font-serif font-semibold leading-none text-white tracking-[-0.03em]">${yearlyPricing ? 25 : 25}</span>
@@ -1146,7 +1145,7 @@ export default function NexCrmClone() {
                       onClick={() => setFaqOpen(faqOpen === idx ? null : idx)}
                       className="w-full px-8 py-6 flex items-center justify-between text-left hover:bg-stone-50/50 transition-colors"
                     >
-                      <span className={`text-[18px] pr-8 ${faqOpen === idx ? 'font-[600] text-[#3E1C00] tracking-[-0.01em]' : 'font-[500] text-[#3E1C00] tracking-[-0.01em]'`}>
+                      <span className={`text-[18px] pr-8 ${faqOpen === idx ? 'font-[600] text-[#3E1C00] tracking-[-0.01em]' : 'font-[500] text-[#3E1C00] tracking-[-0.01em]'}`}>
                         {faq.q}
                       </span>
                       <div className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 transition-colors ${faqOpen === idx ? 'bg-[#3E1C00] text-white' : 'bg-transparent text-[#A68B7C]'}`}>
