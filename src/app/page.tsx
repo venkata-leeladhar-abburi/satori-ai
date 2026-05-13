@@ -97,9 +97,15 @@ function VideoHero() {
 
       <nav className="relative z-20 pl-6 pr-6 py-6">
         <div className="rounded-full px-6 py-3 flex items-center justify-between max-w-5xl mx-auto">
-          <div className="flex items-center gap-2">
-            <Globe className="w-6 h-6 text-white" />
-            <span className="text-white font-semibold text-lg">Sapiences2p</span>
+          <div className="flex items-center">
+            <Image 
+              src="/images/logo.png" 
+              alt="Sapiences2p Logo" 
+              width={160} 
+              height={40} 
+              className="h-10 w-auto object-contain"
+              priority
+            />
           </div>
           
           <div className="hidden md:flex items-center gap-8">
@@ -116,8 +122,8 @@ function VideoHero() {
         </div>
       </nav>
 
-      <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center -translate-y-[15%] mt-12">
-        <div className="text-[15px] font-[500] text-[#FF5C00] uppercase tracking-[0.12em] mb-6">
+      <div className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center -translate-y-[28%] mt-12">
+        <div className="text-[15px] font-[500] text-white uppercase tracking-[0.12em] mb-6">
           Next-Gen Agentic AI & Enterprise Procurement Intelligence
         </div>
         <h1 
@@ -1268,11 +1274,15 @@ export default function NexCrmClone() {
             
             {/* Logo and About */}
             <div className="md:w-[40%] py-16 pr-12">
-              <div className="flex items-center gap-2 mb-6 cursor-pointer">
-                <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" className="text-white" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M4 4h5v4H4zM4 10h5v10H4zM15 4h5v10h-5zM15 16h5v4h-5z" />
-                </svg>
-                <span className="font-[700] text-[2rem] tracking-[-0.03em] text-white">Sapiences2p</span>
+              <div className="flex items-center mb-8 cursor-pointer">
+                <Image 
+                  src="/images/logo.png" 
+                  alt="Sapiences2p Logo" 
+                  width={200} 
+                  height={50} 
+                  className="h-12 w-auto object-contain brightness-0 invert"
+                />
+              </div>
               </div>
               <p className="text-[16px] text-white/80 leading-[1.65] mb-12 font-[400] max-w-[380px]">
                 AI-powered procurement and enterprise transformation — built for scale.
