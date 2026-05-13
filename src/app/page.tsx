@@ -1283,7 +1283,6 @@ export default function NexCrmClone() {
                   className="h-12 w-auto object-contain brightness-0 invert"
                 />
               </div>
-              </div>
               <p className="text-[16px] text-white/80 leading-[1.65] mb-12 font-[400] max-w-[380px]">
                 AI-powered procurement and enterprise transformation — built for scale.
               </p>
