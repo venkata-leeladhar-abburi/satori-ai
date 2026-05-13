@@ -103,11 +103,11 @@ function VideoHero() {
           </div>
           
           <div className="hidden md:flex items-center gap-8">
-            <a href="#" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Products</a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Solutions</a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Services</a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Partners</a>
-            <a href="#" className="text-white/80 hover:text-white transition-colors text-sm font-medium">Testimonials</a>
+            <a href="#" className="text-white/80 hover:text-white transition-colors text-[15px] font-[500] tracking-[-0.01em]">Products</a>
+            <a href="#" className="text-white/80 hover:text-white transition-colors text-[15px] font-[500] tracking-[-0.01em]">Solutions</a>
+            <a href="#" className="text-white/80 hover:text-white transition-colors text-[15px] font-[500] tracking-[-0.01em]">Services</a>
+            <a href="#" className="text-white/80 hover:text-white transition-colors text-[15px] font-[500] tracking-[-0.01em]">Partners</a>
+            <a href="#" className="text-white/80 hover:text-white transition-colors text-[15px] font-[500] tracking-[-0.01em]">Testimonials</a>
           </div>
 
           <div className="flex items-center gap-4">
@@ -141,7 +141,7 @@ function VideoHero() {
               Request a Demo
             </button>
           </div>
-          <p className="text-white/70 text-[13px] leading-relaxed px-4">
+          <p className="text-white/75 text-[20px] leading-[1.6] px-4 font-[400] tracking-[-0.01em]">
             No complex setup. See Satori AI automate procurement, contracts, approvals, and supplier intelligence in real time.
           </p>
         </div>
@@ -200,7 +200,7 @@ export default function NexCrmClone() {
               </div>
 
               <div className="flex justify-between items-end mb-3">
-                <div className="text-[2.5rem] leading-none font-bold text-[#3E1C00] tracking-tight">₹2,50,00,000</div>
+                <div className="text-[3rem] leading-none font-[700] text-[#3E1C00] tracking-[-0.04em]">₹2,50,00,000</div>
                 <div className="flex items-center gap-1.5 font-bold text-[11px] mb-1">
                   <div className="w-4 h-4 rounded-full bg-[#FF5C00] flex items-center justify-center">
                     <ArrowUpRight className="w-2.5 h-2.5 text-white stroke-[3]" />
@@ -304,9 +304,9 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">KEY FEATURES</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">KEY FEATURES</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Designed to automate<br/>enterprise operations
             </h2>
             <p className="text-[15px] text-[#A68B7C] max-w-lg mx-auto leading-relaxed">
@@ -373,7 +373,7 @@ export default function NexCrmClone() {
                   
                   <div className="text-center mb-6 mt-2">
                     <div className="text-[12px] text-stone-400 mb-1">Average savings per transaction</div>
-                    <div className="text-[3.5rem] font-bold flex items-baseline justify-center leading-none">
+                    <div className="text-[3.75rem] font-[700] flex items-baseline justify-center leading-none tracking-[-0.03em]">
                       <span className="text-[#3E1C00]">₹508.00</span>
                     </div>
                   </div>
@@ -446,9 +446,9 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">FEATURES</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">FEATURES</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Seven AI modules built<br/>to run your enterprise
             </h2>
             <p className="text-[15px] text-[#A68B7C] max-w-lg mx-auto leading-relaxed">
@@ -464,19 +464,19 @@ export default function NexCrmClone() {
                 <div className="bg-white p-14 lg:p-20 border-b md:border-b-0 md:border-r border-[#EAE0D5] flex flex-col justify-center">
                   <div className="flex items-center gap-2 mb-6">
                     <div className="w-3 h-3 bg-[#FF5C00] rounded-[1px]" />
-                    <span className="text-[12px] font-bold text-[#3E1C00] uppercase tracking-widest">PROCUREMENT</span>
+                    <span className="text-[12px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">PROCUREMENT</span>
                   </div>
-                  <h3 className="text-[2.5rem] font-serif text-[#3E1C00] mb-6 leading-[1.1] max-w-[580px]">
+                  <h3 className="text-[2.75rem] font-serif font-semibold text-[#3E1C00] mb-8 leading-[1.0] tracking-[-0.02em] max-w-[600px]">
                     Self-Driving<br/>Procurement Engine
                   </h3>
-                  <p className="text-[18px] text-stone-500 leading-relaxed max-w-[620px]">
+                  <p className="text-[18px] text-stone-500 leading-[1.7] max-w-[640px] font-[400] tracking-[-0.005em]">
                     Satori AI autonomously handles procurement from intake to purchase order execution — eliminating repetitive approvals and reducing cycle time dramatically.
                   </p>
                 </div>
                   <div className="bg-[#FAF8F3] p-14 lg:p-20 flex items-center justify-center">
                     <div className="bg-white rounded-2xl shadow-[0_8px_30px_-4px_rgba(0,0,0,0.05)] w-full max-w-[520px] p-10 border border-[#EAE0D5]/50 flex flex-col">
                       <div className="flex justify-between items-center mb-6">
-                        <span className="text-[14px] font-bold text-[#3E1C00]">Active Procurement</span>
+                        <span className="text-[15px] font-[600] text-[#3E1C00] tracking-[-0.01em]">Active Procurement</span>
                       </div>
                       <div className="flex flex-col gap-4">
                         <div className="flex items-center justify-between border-b border-[#EAE0D5] pb-3">
@@ -505,12 +505,12 @@ export default function NexCrmClone() {
                 <div className="bg-white p-14 lg:p-20 border-b md:border-b-0 md:border-r border-[#EAE0D5] flex flex-col justify-center">
                   <div className="flex items-center gap-2 mb-6">
                     <div className="w-3 h-3 bg-[#FF5C00] rounded-[1px]" />
-                    <span className="text-[12px] font-bold text-[#3E1C00] uppercase tracking-widest">GEOGRAPHY</span>
+                    <span className="text-[12px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">GEOGRAPHY</span>
                   </div>
-                  <h3 className="text-[2.5rem] font-serif text-[#3E1C00] mb-6 leading-[1.1] max-w-[580px]">
+                  <h3 className="text-[2.75rem] font-serif font-semibold text-[#3E1C00] mb-8 leading-[1.0] tracking-[-0.02em] max-w-[600px]">
                     Global Supplier<br/>Intelligence
                   </h3>
-                  <p className="text-[18px] text-stone-500 leading-relaxed max-w-[620px]">
+                  <p className="text-[18px] text-stone-500 leading-[1.7] max-w-[640px] font-[400] tracking-[-0.005em]">
                     Monitor suppliers across regions, categories, and risk levels with AI-powered global visibility.
                   </p>
                 </div>
@@ -564,12 +564,12 @@ export default function NexCrmClone() {
                 <div className="bg-white p-14 lg:p-20 border-b md:border-b-0 md:border-r border-[#EAE0D5] flex flex-col justify-center">
                   <div className="flex items-center gap-2 mb-6">
                     <div className="w-3 h-3 bg-[#FF5C00] rounded-[1px]" />
-                    <span className="text-[12px] font-bold text-[#3E1C00] uppercase tracking-widest">FEEDBACK</span>
+                    <span className="text-[12px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">FEEDBACK</span>
                   </div>
-                  <h3 className="text-[2.5rem] font-serif text-[#3E1C00] mb-6 leading-[1.1] max-w-[580px]">
+                  <h3 className="text-[2.75rem] font-serif font-semibold text-[#3E1C00] mb-8 leading-[1.0] tracking-[-0.02em] max-w-[600px]">
                     Contract & Supplier<br/>Rating Dashboard
                   </h3>
-                  <p className="text-[18px] text-stone-500 leading-relaxed max-w-[620px]">
+                  <p className="text-[18px] text-stone-500 leading-[1.7] max-w-[640px] font-[400] tracking-[-0.005em]">
                     Track supplier quality, SLA adherence, delivery timelines, and contract performance automatically using AI sentiment scoring.
                   </p>
                 </div>
@@ -612,7 +612,7 @@ export default function NexCrmClone() {
               <div className="w-2 h-2 bg-[#FF5C00] rounded-[1px]" />
               <span className="text-[10px] font-bold text-stone-500 uppercase tracking-widest">METRICS</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Numbers that prove the impact
             </h2>
             <p className="text-[15px] text-stone-500 max-w-2xl mx-auto leading-relaxed">
@@ -655,12 +655,12 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">WHY CHOOSE US</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">WHY CHOOSE US</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Built for enterprise speed and scale
             </h2>
-            <p className="text-[15px] text-[#A68B7C] max-w-2xl mx-auto leading-relaxed">
+            <p className="text-[19px] text-[#A68B7C] max-w-2xl mx-auto leading-[1.65] font-[400] tracking-[-0.01em]">
               Satori AI is designed from the ground up for intelligent decision-making, autonomous workflows, and enterprise reliability.
             </p>
           </div>
@@ -670,10 +670,10 @@ export default function NexCrmClone() {
               
               {/* Left Box (Orange) */}
               <div className="bg-[#FF5C00] text-white p-14 lg:p-20 flex flex-col items-center text-center overflow-hidden relative">
-                <h3 className="text-[1.85rem] font-serif mb-4 leading-[1.2] max-w-[480px]">
+                <h3 className="text-[2.25rem] font-serif font-semibold mb-5 leading-[1.05] tracking-[-0.02em] max-w-[500px]">
                   AI-first architecture for enterprise decisions
                 </h3>
-                <p className="text-[14px] text-white/90 leading-relaxed mb-16 max-w-[300px]">
+                <p className="text-[17px] text-white/90 leading-[1.65] mb-14 max-w-[380px] font-[400]">
                   Satori continuously learns from procurement cycles, supplier negotiations, and enterprise workflows to improve outcomes automatically.
                 </p>
                 
@@ -690,10 +690,10 @@ export default function NexCrmClone() {
 
               {/* Right Box (White) */}
               <div className="bg-white p-14 lg:p-20 flex flex-col items-center text-center overflow-hidden border-l border-[#EAE0D5]">
-                <h3 className="text-[1.85rem] font-serif text-[#3E1C00] mb-4 leading-[1.2] max-w-[340px]">
+                <h3 className="text-[2.25rem] font-serif font-semibold text-[#3E1C00] mb-5 leading-[1.05] tracking-[-0.02em]">
                   Tailored interfaces for every stakeholder
                 </h3>
-                <p className="text-[14px] text-[#A68B7C] leading-relaxed mb-16 max-w-[480px]">
+                <p className="text-[17px] text-[#A68B7C] leading-[1.65] mb-14 max-w-[520px] font-[400]">
                   Procurement teams, finance leaders, and executives each get focused dashboards with actionable insights.
                 </p>
                 
@@ -723,12 +723,12 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">BENEFITS</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">BENEFITS</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Advantages that help your team move smarter
             </h2>
-            <p className="text-[15px] text-[#A68B7C] max-w-2xl mx-auto leading-relaxed">
+            <p className="text-[19px] text-[#A68B7C] max-w-2xl mx-auto leading-[1.65] font-[400] tracking-[-0.01em]">
               Bring intelligence, automation, and predictive insights into every procurement workflow.
             </p>
           </div>
@@ -740,8 +740,8 @@ export default function NexCrmClone() {
                 <div className="w-10 h-10 rounded-lg bg-[#FF5C00] flex items-center justify-center mb-6 shadow-md shadow-orange-500/20">
                   <Link className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="text-[1.5rem] font-serif text-[#3E1C00] mb-3 leading-tight">Seamless ERP Integration</h3>
-                <p className="text-[14px] text-[#A68B7C] leading-relaxed pr-4">
+                <h3 className="text-[1.75rem] font-serif font-semibold text-[#3E1C00] mb-4 leading-[1.1] tracking-[-0.02em]">Seamless ERP Integration</h3>
+                <p className="text-[16px] text-[#A68B7C] leading-[1.65] pr-4 font-[400]">
                   Native integrations with SAP, Oracle, Dynamics 365, AWS, and enterprise ecosystems.
                 </p>
               </div>
@@ -751,8 +751,8 @@ export default function NexCrmClone() {
                 <div className="w-10 h-10 rounded-lg bg-[#FF5C00] flex items-center justify-center mb-6 shadow-md shadow-orange-500/20">
                   <Brain className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="text-[1.5rem] font-serif text-[#3E1C00] mb-3 leading-tight">Autonomous Decision Intelligence</h3>
-                <p className="text-[14px] text-[#A68B7C] leading-relaxed pr-4">
+                <h3 className="text-[1.75rem] font-serif font-semibold text-[#3E1C00] mb-4 leading-[1.1] tracking-[-0.02em]">Autonomous Decision Intelligence</h3>
+                <p className="text-[16px] text-[#A68B7C] leading-[1.65] pr-4 font-[400]">
                   AI agents evaluate suppliers, negotiate contracts, and execute decisions automatically.
                 </p>
               </div>
@@ -762,8 +762,8 @@ export default function NexCrmClone() {
                 <div className="w-10 h-10 rounded-lg bg-[#FF5C00] flex items-center justify-center mb-6 shadow-md shadow-orange-500/20">
                   <BarChart3 className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="text-[1.5rem] font-serif text-[#3E1C00] mb-3 leading-tight">Predictive Spend Analytics</h3>
-                <p className="text-[14px] text-[#A68B7C] leading-relaxed pr-4">
+                <h3 className="text-[1.75rem] font-serif font-semibold text-[#3E1C00] mb-4 leading-[1.1] tracking-[-0.02em]">Predictive Spend Analytics</h3>
+                <p className="text-[16px] text-[#A68B7C] leading-[1.65] pr-4 font-[400]">
                   Surface cost risks, supplier trends, and savings opportunities before they impact operations.
                 </p>
               </div>
@@ -773,8 +773,8 @@ export default function NexCrmClone() {
                 <div className="w-10 h-10 rounded-lg bg-[#FF5C00] flex items-center justify-center mb-6 shadow-md shadow-orange-500/20">
                   <Shield className="w-5 h-5 text-white" />
                 </div>
-                <h3 className="text-[1.5rem] font-serif text-[#3E1C00] mb-3 leading-tight">Enterprise-Grade Security</h3>
-                <p className="text-[14px] text-[#A68B7C] leading-relaxed pr-4">
+                <h3 className="text-[1.75rem] font-serif font-semibold text-[#3E1C00] mb-4 leading-[1.1] tracking-[-0.02em]">Enterprise-Grade Security</h3>
+                <p className="text-[16px] text-[#A68B7C] leading-[1.65] pr-4 font-[400]">
                   SOC 2 Type II compliant infrastructure with encrypted workflows and role-based access.
                 </p>
               </div>
@@ -787,12 +787,12 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">HOW IT WORKS</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">HOW IT WORKS</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Simple deployment. Powerful outcomes.
             </h2>
-            <p className="text-[15px] text-[#A68B7C] max-w-2xl mx-auto leading-relaxed">
+            <p className="text-[19px] text-[#A68B7C] max-w-2xl mx-auto leading-[1.65] font-[400] tracking-[-0.01em]">
               Deploy Satori AI into existing enterprise systems without disrupting operations.
             </p>
           </div>
@@ -813,20 +813,20 @@ export default function NexCrmClone() {
 
               {/* Row 2 (Content) */}
               <div className="border-b md:border-b-0 md:border-r border-[#EAE0D5] p-10 lg:p-12 flex flex-col items-start text-left bg-[#FAF8F3]">
-                <h3 className="text-[1.35rem] font-serif text-[#3E1C00] mb-4 leading-snug">Connect your enterprise stack</h3>
-                <p className="text-[13px] text-[#A68B7C] leading-relaxed">
+                <h3 className="text-[1.625rem] font-serif font-semibold text-[#3E1C00] mb-5 leading-[1.1] tracking-[-0.015em]">Connect your enterprise stack</h3>
+                <p className="text-[16px] text-[#A68B7C] leading-[1.65] font-[400]">
                   Integrate SAP, AWS, Microsoft, Oracle, and procurement systems seamlessly.
                 </p>
               </div>
               <div className="border-b md:border-b-0 md:border-r border-[#EAE0D5] p-10 lg:p-12 flex flex-col items-start text-left bg-white relative z-10">
-                <h3 className="text-[1.35rem] font-serif text-[#3E1C00] mb-4 leading-snug">Let Satori understand your workflows</h3>
-                <p className="text-[13px] text-[#A68B7C] leading-relaxed">
+                <h3 className="text-[1.625rem] font-serif font-semibold text-[#3E1C00] mb-5 leading-[1.1] tracking-[-0.015em]">Let Satori understand your workflows</h3>
+                <p className="text-[16px] text-[#A68B7C] leading-[1.65] font-[400]">
                   AI analyses procurement history, suppliers, contracts, and spend behavior.
                 </p>
               </div>
               <div className="p-10 lg:p-12 flex flex-col items-start text-left bg-[#FAF8F3]">
-                <h3 className="text-[1.35rem] font-serif text-[#3E1C00] mb-4 leading-snug">Watch autonomous execution begin</h3>
-                <p className="text-[13px] text-[#A68B7C] leading-relaxed">
+                <h3 className="text-[1.625rem] font-serif font-semibold text-[#3E1C00] mb-5 leading-[1.1] tracking-[-0.015em]">Watch autonomous execution begin</h3>
+                <p className="text-[16px] text-[#A68B7C] leading-[1.65] font-[400]">
                   Satori routes approvals, negotiates supplier terms, flags risks, and executes procurement workflows.
                 </p>
               </div>
@@ -840,9 +840,9 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">INTEGRATIONS</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">INTEGRATIONS</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Connect with your enterprise ecosystem
             </h2>
             <p className="text-[15px] text-stone-500 max-w-2xl mx-auto leading-relaxed">
@@ -873,22 +873,22 @@ export default function NexCrmClone() {
               <div className="p-14 lg:p-20 flex flex-col justify-center border-b md:border-b-0 md:border-r border-[#EAE0D5]">
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-                  <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">AI-POWERED</span>
+                  <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">AI-POWERED</span>
                 </div>
-                <h2 className="text-[2.5rem] lg:text-[3.25rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1] max-w-[400px]">
+                <h2 className="text-[3rem] lg:text-[3.75rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0] max-w-[520px]">
                   Turn procurement chaos into intelligent orchestration
                 </h2>
-                <p className="text-[14px] text-[#A68B7C] leading-relaxed mb-16 max-w-[560px]">
+                <p className="text-[18px] text-[#A68B7C] leading-[1.65] mb-14 max-w-[580px] font-[400]">
                   Satori AI analyses supplier, contract, and spend data to recommend and execute the best next action automatically.
                 </p>
                 
                 <div className="grid grid-cols-2 gap-8">
                   <div>
-                    <div className="text-[2.5rem] font-serif text-[#3E1C00] leading-none mb-3">92%</div>
+                    <div className="text-[3.5rem] font-serif font-semibold text-[#3E1C00] leading-none mb-3 tracking-[-0.02em]">92%</div>
                     <div className="text-[12px] font-bold text-[#A68B7C]">Faster Deal Progression</div>
                   </div>
                   <div>
-                    <div className="text-[2.5rem] font-serif text-[#3E1C00] leading-none mb-3">3.4x</div>
+                    <div className="text-[3.5rem] font-serif font-semibold text-[#3E1C00] leading-none mb-3 tracking-[-0.02em]">3.4x</div>
                     <div className="text-[12px] font-bold text-[#A68B7C]">Increase in Team Efficiency</div>
                   </div>
                 </div>
@@ -913,12 +913,12 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">TESTIMONIALS</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">TESTIMONIALS</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               See what enterprise leaders are saying
             </h2>
-            <p className="text-[15px] text-[#A68B7C] max-w-2xl mx-auto leading-relaxed">
+            <p className="text-[19px] text-[#A68B7C] max-w-2xl mx-auto leading-[1.65] font-[400] tracking-[-0.01em]">
               Global enterprises rely on Satori AI to automate procurement and transform operations.
             </p>
           </div>
@@ -955,7 +955,7 @@ export default function NexCrmClone() {
                         {testimonial.quote1}
                       </h3>
                       {testimonial.quote2 && (
-                        <p className="text-[13px] text-[#A68B7C] leading-relaxed mb-12">
+                        <p className="text-[16px] text-[#A68B7C] leading-[1.65] font-[400] mb-12">
                           {testimonial.quote2}
                         </p>
                       )}
@@ -980,9 +980,9 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">PARTNERSHIP PLANS</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">PARTNERSHIP PLANS</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Flexible engagement models built for growth
             </h2>
             <div className="h-6"></div>
@@ -1012,24 +1012,24 @@ export default function NexCrmClone() {
                 <div className="w-8 h-8 rounded bg-[#FF5C00] flex items-center justify-center mb-6 shadow-sm">
                   <div className="w-3 h-3 bg-white rounded-[2px]" />
                 </div>
-                <h3 className="text-[1.35rem] font-serif text-[#3E1C00] mb-2 leading-tight">Essentials</h3>
+                <h3 className="text-[1.625rem] font-serif font-semibold text-[#3E1C00] mb-3 leading-[1.1] tracking-[-0.015em]">Essentials</h3>
                 <p className="text-[12px] text-[#A68B7C] mb-8">&nbsp;</p>
                 
                 <div className="mb-8 border-b border-[#EAE0D5] pb-8 flex items-baseline gap-1">
-                  <span className="text-[2.75rem] font-serif leading-none text-[#3E1C00]">${yearlyPricing ? 19 : 19}</span>
-                  <span className="text-[15px] font-serif text-[#3E1C00]">/month</span>
+                  <span className="text-[3.75rem] font-serif font-semibold leading-none text-[#3E1C00] tracking-[-0.03em]">${yearlyPricing ? 19 : 19}</span>
+                  <span className="text-[16px] font-sans font-[500] text-[#3E1C00] tracking-[-0.01em]">/month</span>
                 </div>
                 
                 <div className="space-y-4 flex-1 mb-10">
                   {["AI Chatbot", "Spend Dashboard", "5,000 Transactions", "Email Support"].map((feat, j) => (
                     <div key={j} className="flex items-center gap-3">
                       <div className="w-1.5 h-1.5 rounded-full bg-[#A68B7C] shrink-0" />
-                      <span className="text-[12px] text-[#3E1C00] font-medium">{feat}</span>
+                      <span className="text-[15px] text-[#3E1C00] font-[500] tracking-[-0.01em]">{feat}</span>
                     </div>
                   ))}
                 </div>
 
-                <button className="w-full py-3.5 rounded-[4px] text-[12px] font-bold transition-all bg-[#3E1C00] text-white hover:bg-[#2A1100] flex items-center justify-between px-6">
+                <button className="w-full py-3.5 rounded-[4px] text-[15px] font-[600] tracking-[-0.01em] transition-all bg-[#3E1C00] text-white hover:bg-[#2A1100] flex items-center justify-between px-6">
                   Select plan
                   <ChevronRight className="w-4 h-4 opacity-50" />
                 </button>
@@ -1040,24 +1040,24 @@ export default function NexCrmClone() {
                 <div className="w-8 h-8 rounded bg-white flex items-center justify-center mb-6 shadow-sm">
                   <div className="w-3 h-3 bg-[#3E1C00] rounded-[2px]" />
                 </div>
-                <h3 className="text-[1.35rem] font-serif text-white mb-2 leading-tight">Professional</h3>
-                <p className="text-[12px] text-white/80 mb-8">&nbsp;</p>
+                <h3 className="text-[1.625rem] font-serif font-semibold text-white mb-3 leading-[1.1] tracking-[-0.015em]">Professional</h3>
+                <p className="text-[14px] text-white font-[500]/80 mb-8">&nbsp;</p>
                 
                 <div className="mb-8 border-b border-white/20 pb-8 flex items-baseline gap-1">
-                  <span className="text-[2.75rem] font-serif leading-none text-white">${yearlyPricing ? 25 : 25}</span>
-                  <span className="text-[15px] font-serif text-white">/month</span>
+                  <span className="text-[3.75rem] font-serif font-semibold leading-none text-white tracking-[-0.03em]">${yearlyPricing ? 25 : 25}</span>
+                  <span className="text-[16px] font-sans font-[500] text-white tracking-[-0.01em]">/month</span>
                 </div>
                 
                 <div className="space-y-4 flex-1 mb-10">
                   {["Autonomous Procurement", "AI Workflow Automation", "Unlimited Supplier Connections", "Contract Intelligence"].map((feat, j) => (
                     <div key={j} className="flex items-center gap-3">
                       <div className="w-1.5 h-1.5 rounded-full bg-white shrink-0" />
-                      <span className="text-[12px] text-white font-medium">{feat}</span>
+                      <span className="text-[15px] text-white font-[500] tracking-[-0.01em]">{feat}</span>
                     </div>
                   ))}
                 </div>
 
-                <button className="w-full py-3.5 rounded-[4px] text-[12px] font-bold transition-all bg-white text-[#3E1C00] hover:bg-stone-50 flex items-center justify-between px-6">
+                <button className="w-full py-3.5 rounded-[4px] text-[15px] font-[600] tracking-[-0.01em] transition-all bg-white text-[#3E1C00] hover:bg-stone-50 flex items-center justify-between px-6">
                   Select plan
                   <ChevronRight className="w-4 h-4 text-[#A68B7C]" />
                 </button>
@@ -1068,24 +1068,24 @@ export default function NexCrmClone() {
                 <div className="w-8 h-8 rounded bg-[#FF5C00] flex items-center justify-center mb-6 shadow-sm">
                   <div className="w-3 h-3 bg-white rounded-[2px]" />
                 </div>
-                <h3 className="text-[1.35rem] font-serif text-[#3E1C00] mb-2 leading-tight">Enterprise</h3>
+                <h3 className="text-[1.625rem] font-serif font-semibold text-[#3E1C00] mb-3 leading-[1.1] tracking-[-0.015em]">Enterprise</h3>
                 <p className="text-[12px] text-[#A68B7C] mb-8">&nbsp;</p>
                 
                 <div className="mb-8 border-b border-[#EAE0D5] pb-8 flex items-baseline gap-1">
-                  <span className="text-[2.75rem] font-serif leading-none text-[#3E1C00]">${yearlyPricing ? 49 : 49}</span>
-                  <span className="text-[15px] font-serif text-[#3E1C00]">/month</span>
+                  <span className="text-[3.75rem] font-serif font-semibold leading-none text-[#3E1C00] tracking-[-0.03em]">${yearlyPricing ? 49 : 49}</span>
+                  <span className="text-[16px] font-sans font-[500] text-[#3E1C00] tracking-[-0.01em]">/month</span>
                 </div>
                 
                 <div className="space-y-4 flex-1 mb-10">
                   {["Multi-Entity Management", "AI Negotiation Pipelines", "Advanced Analytics", "Workflow Customisation"].map((feat, j) => (
                     <div key={j} className="flex items-center gap-3">
                       <div className="w-1.5 h-1.5 rounded-full bg-[#A68B7C] shrink-0" />
-                      <span className="text-[12px] text-[#3E1C00] font-medium">{feat}</span>
+                      <span className="text-[15px] text-[#3E1C00] font-[500] tracking-[-0.01em]">{feat}</span>
                     </div>
                   ))}
                 </div>
 
-                <button className="w-full py-3.5 rounded-[4px] text-[12px] font-bold transition-all bg-[#3E1C00] text-white hover:bg-[#2A1100] flex items-center justify-between px-6">
+                <button className="w-full py-3.5 rounded-[4px] text-[15px] font-[600] tracking-[-0.01em] transition-all bg-[#3E1C00] text-white hover:bg-[#2A1100] flex items-center justify-between px-6">
                   Select plan
                   <ChevronRight className="w-4 h-4 opacity-50" />
                 </button>
@@ -1103,15 +1103,15 @@ export default function NexCrmClone() {
               <div>
                 <div className="flex items-center gap-2 mb-4">
                   <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-                  <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">FAQ</span>
+                  <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">FAQ</span>
                 </div>
-                <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+                <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
                   Your questions, answered
                 </h2>
-                <p className="text-[15px] text-[#A68B7C] leading-relaxed mb-10 max-w-sm">
+                <p className="text-[18px] text-[#A68B7C] leading-[1.65] font-[400] mb-10 max-w-sm">
                   Answers to the most common questions about Satori AI. If you still have questions, let us know.
                 </p>
-                <button className="px-8 py-3.5 rounded-full text-[12px] font-bold transition-all bg-[#3E1C00] text-white hover:bg-[#2A1100] flex items-center gap-2">
+                <button className="px-8 py-3.5 rounded-full text-[15px] font-[600] tracking-[-0.01em] transition-all bg-[#3E1C00] text-white hover:bg-[#2A1100] flex items-center gap-2">
                   Contact us
                   <ChevronRight className="w-4 h-4 opacity-50" />
                 </button>
@@ -1146,7 +1146,7 @@ export default function NexCrmClone() {
                       onClick={() => setFaqOpen(faqOpen === idx ? null : idx)}
                       className="w-full px-8 py-6 flex items-center justify-between text-left hover:bg-stone-50/50 transition-colors"
                     >
-                      <span className={`text-[15px] pr-8 ${faqOpen === idx ? 'font-bold text-[#3E1C00]' : 'font-medium text-[#3E1C00]'}`}>
+                      <span className={`text-[18px] pr-8 ${faqOpen === idx ? 'font-[600] text-[#3E1C00] tracking-[-0.01em]' : 'font-[500] text-[#3E1C00] tracking-[-0.01em]'`}>
                         {faq.q}
                       </span>
                       <div className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 transition-colors ${faqOpen === idx ? 'bg-[#3E1C00] text-white' : 'bg-transparent text-[#A68B7C]'}`}>
@@ -1165,7 +1165,7 @@ export default function NexCrmClone() {
                           exit={{ height: 0, opacity: 0 }}
                           className="overflow-hidden"
                         >
-                          <div className="px-8 pb-8 pt-0 text-[13px] text-[#A68B7C] leading-relaxed pr-20">
+                          <div className="px-8 pb-8 pt-0 text-[16px] text-[#A68B7C] leading-[1.65] font-[400] pr-20">
                             {faq.a}
                           </div>
                         </motion.div>
@@ -1183,12 +1183,12 @@ export default function NexCrmClone() {
           <div className="text-center max-w-4xl mx-auto mb-16 px-4">
             <div className="flex items-center justify-center gap-2 mb-4">
               <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-              <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">BLOGS AND INSIGHTS</span>
+              <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">BLOGS AND INSIGHTS</span>
             </div>
-            <h2 className="text-5xl md:text-[4rem] font-serif text-[#3E1C00] mb-6 tracking-tight leading-[1.1]">
+            <h2 className="text-[2.75rem] md:text-[3.5rem] lg:text-[4rem] font-serif font-semibold text-[#3E1C00] mb-8 tracking-[-0.02em] leading-[1.0]">
               Latest insights from enterprise AI
             </h2>
-            <p className="text-[15px] text-[#A68B7C] max-w-2xl mx-auto leading-relaxed">
+            <p className="text-[19px] text-[#A68B7C] max-w-2xl mx-auto leading-[1.65] font-[400] tracking-[-0.01em]">
               &nbsp;
             </p>
           </div>
@@ -1220,7 +1220,7 @@ export default function NexCrmClone() {
                   <div className="p-8 lg:p-10 flex-1 flex flex-col justify-center">
                     <div className="flex items-center gap-2 mb-4">
                       <div className="w-2.5 h-2.5 bg-[#FF5C00] rounded-[1px]" />
-                      <span className="text-[11px] font-bold text-[#5E4230] uppercase tracking-widest">{blog.tag}</span>
+                      <span className="text-[13px] font-semibold text-[#FF5C00] uppercase tracking-[0.14em]">{blog.tag}</span>
                     </div>
                     <h3 className="text-[1.25rem] font-serif text-[#3E1C00] leading-snug">{blog.title}</h3>
                   </div>
@@ -1273,13 +1273,13 @@ export default function NexCrmClone() {
                 <svg width="32" height="32" viewBox="0 0 24 24" fill="currentColor" className="text-white" xmlns="http://www.w3.org/2000/svg">
                   <path d="M4 4h5v4H4zM4 10h5v10H4zM15 4h5v10h-5zM15 16h5v4h-5z" />
                 </svg>
-                <span className="font-bold text-[1.75rem] tracking-tight text-white">Sapiences2p</span>
+                <span className="font-[700] text-[2rem] tracking-[-0.03em] text-white">Sapiences2p</span>
               </div>
-              <p className="text-[13px] text-white/90 leading-relaxed mb-12 max-w-[380px]">
+              <p className="text-[16px] text-white/80 leading-[1.65] mb-12 font-[400] max-w-[380px]">
                 AI-powered procurement and enterprise transformation — built for scale.
               </p>
               <div className="mb-4">
-                <span className="text-[12px] text-white">Follow us on:</span>
+                <span className="text-[14px] text-white font-[500]">Follow us on:</span>
               </div>
               <div className="flex items-center gap-5">
                 {/* Social Icons */}
@@ -1292,30 +1292,30 @@ export default function NexCrmClone() {
 
             {/* Main Pages */}
             <div className="md:w-[20%] py-16 px-4 md:px-8 md:border-l border-white/20">
-              <h4 className="font-serif text-[1.35rem] mb-6 text-white">Main Pages</h4>
+              <h4 className="font-serif font-semibold text-[1.5rem] mb-6 text-white tracking-[-0.01em]">Main Pages</h4>
               <ul className="space-y-3.5">
                 {['Home', 'About', 'Features', 'Pricing', 'Blogs', 'Contact'].map(link => (
-                  <li key={link}><a href="#" className="text-[13px] font-bold text-white hover:text-white/80 transition-colors">{link}</a></li>
+                  <li key={link}><a href="#" className="text-[15px] font-[500] text-white hover:text-white/80 transition-colors tracking-[-0.01em]">{link}</a></li>
                 ))}
               </ul>
             </div>
 
             {/* Inner Pages */}
             <div className="md:w-[20%] py-16 px-4 md:px-8 md:border-l border-white/20">
-              <h4 className="font-serif text-[1.35rem] mb-6 text-white">Inner Pages</h4>
+              <h4 className="font-serif font-semibold text-[1.5rem] mb-6 text-white tracking-[-0.01em]">Inner Pages</h4>
               <ul className="space-y-3.5">
                 {['Careers', 'Case Studies', 'Blog Details'].map(link => (
-                  <li key={link}><a href="#" className="text-[13px] font-bold text-white hover:text-white/80 transition-colors">{link}</a></li>
+                  <li key={link}><a href="#" className="text-[15px] font-[500] text-white hover:text-white/80 transition-colors tracking-[-0.01em]">{link}</a></li>
                 ))}
               </ul>
             </div>
 
             {/* Legal */}
             <div className="md:w-[20%] py-16 px-4 md:px-8 md:border-l border-white/20">
-              <h4 className="font-serif text-[1.35rem] mb-6 text-white">Legal</h4>
+              <h4 className="font-serif font-semibold text-[1.5rem] mb-6 text-white tracking-[-0.01em]">Legal</h4>
               <ul className="space-y-3.5">
                 {['Privacy Policy', 'Terms & Conditions'].map(link => (
-                  <li key={link}><a href="#" className="text-[13px] font-bold text-white hover:text-white/80 transition-colors">{link}</a></li>
+                  <li key={link}><a href="#" className="text-[15px] font-[500] text-white hover:text-white/80 transition-colors tracking-[-0.01em]">{link}</a></li>
                 ))}
               </ul>
             </div>
