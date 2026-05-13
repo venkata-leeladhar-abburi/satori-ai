@@ -103,7 +103,7 @@ function VideoHero() {
               alt="Sapiences2p Logo" 
               width={160} 
               height={40} 
-              className="h-10 w-auto object-contain"
+              className="h-10 w-auto object-contain brightness-0 invert"
               priority
             />
           </div>
@@ -117,7 +117,7 @@ function VideoHero() {
           </div>
 
           <div className="flex items-center gap-4">
-            <a href="#" className="liquid-glass rounded-full px-6 py-2 text-white text-sm font-medium hover:bg-white/5 transition-colors">Contact Us</a>
+            <a href="#" className="liquid-glass rounded-full px-6 py-2.5 text-white text-[15px] font-[600] tracking-[-0.01em] hover:bg-white/5 transition-colors">Contact Us</a>
           </div>
         </div>
       </nav>
@@ -146,9 +146,6 @@ function VideoHero() {
               Request a Demo
             </button>
           </div>
-          <p className="text-white/75 text-[20px] leading-[1.6] px-4 font-[400] tracking-[-0.01em]">
-            No complex setup. See Satori AI automate procurement, contracts, approvals, and supplier intelligence in real time.
-          </p>
         </div>
       </div>
 
