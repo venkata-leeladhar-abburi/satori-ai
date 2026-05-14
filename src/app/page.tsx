@@ -83,16 +83,16 @@ function VideoHero() {
         whileInView="whileInView"
         viewport={{ once: true }}
         variants={staggerContainer}
-        className="relative z-20 pl-6 pr-6 py-6"
+        className="relative z-20 px-6 py-6"
       >
-        <div className="rounded-full px-6 py-3 flex items-center justify-between max-w-5xl mx-auto">
+        <div className="rounded-full px-4 md:px-6 py-3 flex items-center justify-between max-w-5xl mx-auto">
           <motion.div variants={fadeInUp} className="flex items-center">
             <Image 
               src="/images/logo.png" 
               alt="Sapiences2p Logo" 
               width={160} 
               height={40} 
-              className="h-10 w-auto object-contain brightness-0 invert"
+              className="h-8 md:h-10 w-auto object-contain brightness-0 invert"
               priority
             />
           </motion.div>
@@ -115,7 +115,7 @@ function VideoHero() {
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.97 }}
               href="#" 
-              className="liquid-glass rounded-full px-6 py-2.5 text-white text-[15px] font-[600] tracking-[-0.01em] hover:bg-white/5 transition-colors"
+              className="liquid-glass rounded-full px-4 md:px-6 py-2 md:py-2.5 text-white text-[13px] md:text-[15px] font-[600] tracking-[-0.01em] hover:bg-white/5 transition-colors"
             >
               Contact Us
             </motion.a>
@@ -128,35 +128,35 @@ function VideoHero() {
         whileInView="whileInView"
         viewport={{ once: true }}
         variants={staggerContainer}
-        className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center -translate-y-[28%] mt-12"
+        className="relative z-10 flex-1 flex flex-col items-center justify-center px-6 py-12 text-center md:-translate-y-[28%] mt-8 sm:mt-12"
       >
-        <motion.div variants={fadeInUp} className="text-[15px] font-[500] text-white uppercase tracking-[0.12em] mb-6">
+        <motion.div variants={fadeInUp} className="text-[11px] md:text-[15px] font-[500] text-white uppercase tracking-[0.1em] md:tracking-[0.12em] mb-6 px-4">
           Next-Gen Agentic AI & Enterprise Procurement Intelligence
         </motion.div>
         <motion.h1 
           variants={fadeInUp}
-          className="text-[2.75rem] md:text-[3.75rem] lg:text-[4.5rem] font-serif text-white mb-8 font-[600] leading-[0.95] tracking-[-0.03em] whitespace-nowrap"
+          className="text-[2.75rem] md:text-[3.75rem] lg:text-[4.5rem] font-serif text-white mb-8 font-[600] leading-[0.95] tracking-[-0.03em] md:whitespace-nowrap"
         >
           Built for the Enterprise
         </motion.h1>
         <motion.p 
           variants={fadeInUp}
-          className="text-[19px] md:text-[21px] text-white/75 max-w-2xl mx-auto leading-[1.6] mb-12 font-[400] tracking-[-0.01em]"
+          className="text-[19px] md:text-[21px] text-white/75 max-w-2xl mx-auto leading-[1.6] mb-8 md:mb-12 font-[400] tracking-[-0.01em]"
         >
           Satori AI thinks, decides, and executes procurement operations autonomously — helping enterprises move faster with fewer bottlenecks.
         </motion.p>
         
-        <motion.div variants={fadeInUp} className="max-w-xl w-full space-y-4 mx-auto">
-          <div className="liquid-glass rounded-full pl-6 pr-2 py-2 flex items-center gap-3">
+        <motion.div variants={fadeInUp} className="max-w-md w-full mx-auto">
+          <div className="liquid-glass rounded-2xl md:rounded-full px-4 md:pl-6 md:pr-2 py-3 md:py-2 flex flex-col md:flex-row items-center gap-2 md:gap-3">
             <input 
               type="email" 
               placeholder="Enter your work email" 
-              className="bg-transparent border-none flex-1 text-white placeholder:text-white/60 text-base focus:outline-none"
+              className="bg-transparent border-none flex-1 text-white placeholder:text-white/60 text-[13px] md:text-base focus:outline-none w-full text-center md:text-left py-1 md:py-0"
             />
             <motion.button 
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.97 }}
-              className="bg-white rounded-full px-7 py-3.5 text-[#1A0A00] hover:bg-white/90 transition-colors shrink-0 text-[15px] font-[600] tracking-[-0.01em]"
+              className="bg-white rounded-xl md:rounded-full px-6 py-2.5 md:py-3 text-[#1A0A00] hover:bg-white/90 transition-colors w-full md:w-auto shrink-0 text-[13px] md:text-[15px] font-[600] tracking-[-0.01em]"
             >
               Request a Demo
             </motion.button>
@@ -216,10 +216,10 @@ export default function NexCrmClone() {
             initial={{ opacity: 0, y: 40 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
-            className="-mt-32 lg:-mt-40 flex flex-col lg:flex-row gap-5 max-w-5xl mx-auto items-stretch relative z-20 px-4"
+            className="mt-12 md:-mt-32 lg:-mt-40 flex flex-col lg:flex-row gap-5 max-w-5xl mx-auto items-stretch relative z-20 px-4"
           >
             {/* Total Sales Card */}
-            <div className="flex-1 bg-white rounded-[2rem] p-8 text-left shadow-xl flex flex-col border border-white/50 relative overflow-hidden">
+            <div className="flex-1 bg-white rounded-[2rem] p-6 md:p-8 text-left shadow-xl flex flex-col border border-white/50 relative overflow-hidden">
               <div className="flex justify-between items-start mb-6">
                 <h3 className="text-[#1A0A00] font-bold text-lg">Procurement Overview</h3>
                 <button className="flex items-center gap-1.5 px-3 py-1.5 rounded-lg border border-stone-100 text-[#1A0A00] text-[11px] font-semibold hover:bg-stone-50 transition-colors shadow-sm">
@@ -227,8 +227,8 @@ export default function NexCrmClone() {
                 </button>
               </div>
 
-              <div className="flex justify-between items-end mb-3">
-                <div className="text-[3rem] leading-none font-[700] text-[#3E1C00] tracking-[-0.04em]">₹2,50,00,000</div>
+              <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end mb-3 gap-4">
+                <div className="text-[2.5rem] md:text-[3rem] leading-none font-[700] text-[#3E1C00] tracking-[-0.04em]">₹2,50,00,000</div>
                 <div className="flex items-center gap-1.5 font-bold text-[11px] mb-1">
                   <div className="w-4 h-4 rounded-full bg-[#FF5C00] flex items-center justify-center">
                     <ArrowUpRight className="w-2.5 h-2.5 text-white stroke-[3]" />
@@ -241,7 +241,7 @@ export default function NexCrmClone() {
                 TOTAL SPEND MANAGED
               </div>
 
-              <div className="border border-stone-100 rounded-[14px] p-5 pb-4 flex-1 flex items-end justify-around gap-2 min-h-[160px]">
+              <div className="border border-stone-100 rounded-[14px] p-3 sm:p-5 pb-4 flex-1 flex items-end justify-around gap-1 sm:gap-2 min-h-[160px]">
                 {[
                   { m: 'Feb', h: 55, c: '#9A7D6C' },
                   { m: 'Mar', h: 30, c: '#9A7D6C' },
@@ -272,7 +272,7 @@ export default function NexCrmClone() {
 
             
             {/* Key Insights Card */}
-            <div className="flex-1 bg-white rounded-[2rem] p-8 pb-6 text-left shadow-xl flex flex-col border border-white/50 relative overflow-hidden">
+            <div className="flex-1 bg-white rounded-[2rem] p-6 md:p-8 pb-6 text-left shadow-xl flex flex-col border border-white/50 relative overflow-hidden">
               <div className="flex justify-between items-start mb-8">
                 <h3 className="text-[#1A0A00] font-bold text-lg">Key Metrics</h3>
                 <div className="flex gap-0.5 bg-stone-50 p-1 rounded-lg border border-stone-100/50">
@@ -284,23 +284,23 @@ export default function NexCrmClone() {
                 </div>
               </div>
 
-              <div className="flex-1 flex items-center justify-between gap-4 mb-4">
+              <div className="flex-1 flex flex-wrap items-center justify-center md:justify-between gap-6 mb-4">
                 {[
                   { label: 'Supplier Leads', val: '5K', stroke: 220, color: '#FF5C00' },
                   { label: 'Contracts Closed', val: '3K', stroke: 150, color: '#3E1C00' },
                   { label: 'POs Executed', val: '2K', stroke: 80, color: '#3E1C00' },
                 ].map((dial, i) => (
-                  <div key={i} className="flex flex-col items-center gap-4 flex-1">
-                    <div className="relative w-24 h-24 flex items-center justify-center">
+                  <div key={i} className="flex flex-col items-center gap-4">
+                    <div className="relative w-20 h-20 md:w-24 md:h-24 flex items-center justify-center">
                        {/* SVG Dial */}
                        <svg className="absolute inset-0 w-full h-full transform -rotate-90" viewBox="0 0 100 100">
                          <circle cx="50" cy="50" r="40" fill="none" stroke="#F6F3EC" strokeWidth="8" />
                          <circle cx="50" cy="50" r="40" fill="none" stroke={dial.color} strokeWidth="8" strokeDasharray={`${dial.stroke} 251`} strokeLinecap="round" />
                        </svg>
                        {/* Inner Hexagon */}
-                       <div className="relative z-10 w-[3.25rem] h-[3.25rem] bg-[#3E1C00] flex flex-col items-center justify-center shadow-md" style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
-                          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="text-white mb-0.5"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1 3-6z"/></svg>
-                          <span className="text-[12px] font-bold text-white leading-none tracking-tight">{dial.val}</span>
+                       <div className="relative z-10 w-[2.75rem] h-[2.75rem] md:w-[3.25rem] md:h-[3.25rem] bg-[#3E1C00] flex flex-col items-center justify-center shadow-md" style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
+                          <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="text-white mb-0.5"><path d="M12 2l3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1 3-6z"/></svg>
+                          <span className="text-[10px] md:text-[12px] font-bold text-white leading-none tracking-tight">{dial.val}</span>
                        </div>
                     </div>
                     <span className="text-[10px] font-bold text-[#3E1C00] tracking-tight text-center leading-tight">{dial.label}</span>
@@ -580,7 +580,7 @@ export default function NexCrmClone() {
                 <div className="bg-[#FAF8F3] p-14 lg:p-20 flex items-center justify-center">
                   <motion.div 
                     whileHover={{ y: -5, boxShadow: "0 20px 40px rgba(0,0,0,0.05)" }}
-                    className="bg-white rounded-2xl shadow-[0_8px_30px_-4px_rgba(0,0,0,0.05)] w-full max-w-[520px] p-8 lg:p-10 border border-[#EAE0D5]/50 flex flex-col transition-shadow"
+                    className="bg-white rounded-2xl shadow-[0_8px_30px_-4px_rgba(0,0,0,0.05)] w-full max-w-[520px] p-6 md:p-10 border border-[#EAE0D5]/50 flex flex-col transition-shadow"
                   >
                     <div className="flex justify-between items-center mb-10">
                       <div className="flex items-center gap-2">
@@ -594,18 +594,18 @@ export default function NexCrmClone() {
                       </div>
                     </div>
 
-                    <div className="flex items-end gap-6 h-36">
-                      <div className="flex flex-col justify-end h-full w-20">
+                    <div className="flex flex-col sm:flex-row items-center sm:items-end gap-6 sm:h-36 overflow-hidden">
+                      <div className="flex flex-col justify-end h-full w-full sm:w-20 text-center sm:text-left">
                         <div className="text-[10px] text-stone-400 mb-1 leading-tight">Suppliers tracked globally</div>
                         <div className="text-[1.75rem] font-bold text-[#3E1C00] leading-none mb-2">
                           <Counter value="75.8" />k
                         </div>
-                        <div className="flex items-center gap-1 text-[11px] text-emerald-500 font-bold mb-4">
+                        <div className="flex items-center justify-center sm:justify-start gap-1 text-[11px] text-emerald-500 font-bold mb-4">
                           <ArrowUpRight className="w-3 h-3" /> +5%
                         </div>
                       </div>
 
-                      <div className="flex-1 flex justify-between items-end h-full pb-1 gap-2">
+                      <div className="flex-1 flex justify-between items-end h-full w-full pb-1 gap-1 md:gap-2">
                         {[
                           { label: 'Atlanta', h: 55 },
                           { label: 'Shanghai', h: 45 },
@@ -615,14 +615,14 @@ export default function NexCrmClone() {
                         ].map((bar, i) => (
                           <div key={i} className="flex flex-col items-center gap-2 flex-1">
                             <div className="text-[8px] font-bold text-stone-400">{bar.h}%</div>
-                            <div className="w-full max-w-[36px] h-24 bg-[#FAF8F3] rounded-sm relative overflow-hidden">
+                            <div className="w-full max-w-[36px] h-20 sm:h-24 bg-[#FAF8F3] rounded-sm relative overflow-hidden">
                               <motion.div 
                                 initial={{ height: 0 }}
                                 whileInView={{ height: `${bar.h}%` }}
                                 className={`absolute bottom-0 w-full rounded-sm ${bar.active ? 'bg-[#FF5C00]' : 'bg-[#EAE0D5]'}`} 
                               />
                             </div>
-                            <div className="text-[8px] text-stone-400 mt-1 whitespace-nowrap">{bar.label}</div>
+                            <div className="text-[7px] md:text-[8px] text-stone-400 mt-1 whitespace-nowrap">{bar.label}</div>
                           </div>
                         ))}
                       </div>
@@ -648,7 +648,7 @@ export default function NexCrmClone() {
                 <div className="bg-[#FAF8F3] p-14 lg:p-20 flex items-center justify-center">
                   <motion.div 
                     whileHover={{ y: -5, boxShadow: "0 20px 40px rgba(0,0,0,0.05)" }}
-                    className="bg-white rounded-2xl shadow-[0_8px_30px_-4px_rgba(0,0,0,0.05)] w-full max-w-[520px] p-8 lg:p-10 border border-[#EAE0D5]/50 flex flex-col transition-shadow"
+                    className="bg-white rounded-2xl shadow-[0_8px_30px_-4px_rgba(0,0,0,0.05)] w-full max-w-[520px] p-6 md:p-10 border border-[#EAE0D5]/50 flex flex-col transition-shadow"
                   >
                     <div className="flex justify-between items-center mb-8">
                       <div className="flex items-center gap-2">
